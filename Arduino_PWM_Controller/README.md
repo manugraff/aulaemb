@@ -71,4 +71,5 @@ void loop() {
 ````
 
 5. [Funcionamento do projeto](#funcionamento-do-projeto)
+   Quando o botão é pressionado, o motor recebe um sinal de modulação por largura de pulso (PWM) que aumenta em 64 unidades a cada pressionamento, variando de 1 a 255. Esses valores correspondem a 0%, 25%, 50%, 75% e 100%, respectivamente, dentro da faixa total de velocidade relativa possível do motor de corrente contínua (DC). Quando o valor ultrapassa 255, o contador é reiniciado para 0, iniciando novamente o ciclo.
    
